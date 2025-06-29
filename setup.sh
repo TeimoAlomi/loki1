@@ -1,8 +1,5 @@
 !/bin/bash
 
-# Установка русской клавы
-setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle"
-
 # Тёмная тема и обои
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
 gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/kali/kali-dark.png'
